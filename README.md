@@ -7,4 +7,7 @@ This is a python project that utilizes
 - Pandas library
 - Exchange rate API from https://www.exchangerate-api.com
 
-To run the scraper all you have to do is run the "crawler.exe" file located in the [dist] directory, a .csv file will then appear in the output folder. 
+Steps to run:
+1. A .env file containing "X-Algolia-Application-Id" and "X-Algolia-Api-Key" is required. Go to [https://www.warhammer.com/en-US/shop/warhammer-40000/space-marines/black-templars], right-click >> inspect element >> Network >> Fetch/XHR then refresh the page, you should see "queries?x-algolia....", click on it then go to Headers, scroll down and you should have ur values.
+2. Create a .env file at the root directory of the project, and put these two values inside.
+3. To run the scraper all you have to do is run the "crawler.exe" file located in the [dist] directory, a .csv file will then appear in the output folder. 
