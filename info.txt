@@ -1,0 +1,63 @@
+To build file:
+pyinstaller crawler.py --onefile
+
+*Online only = isWebstoreExclusive
+Temporarily Out of stock = isInStock
+Sold out online 
+
+{
+"displayField16": "Temporarily out of stock",
+"badgeName": "Temporarily out of stock",
+"key": "Temporarily out of stock",
+"priority": 1,
+"badgeColour": "Danger"
+},
+{
+"displayField16": "Sold out online",
+"badgeName": "Sold out online",
+"key": "Sold out online",
+"priority": 2,
+"badgeColour": "Danger"
+},
+{
+"displayField16": "Last chance to buy",
+"badgeName": "Last chance to buy",
+"key": "Last chance to buy",
+"priority": 3,
+"badgeColour": "Default"
+},
+{
+"displayField16": "Made to Order",
+"badgeName": "Made to Order",
+"key": "Made to order",
+"priority": 4,
+"badgeColour": "Default"
+},
+{
+"displayField16": "Print on demand",
+"badgeName": "Print on demand",
+"key": "Print on demand",
+"priority": 5,
+"badgeColour": "Default"
+},
+{
+"displayField16": "Online Only (previously Available to Order)",
+"badgeName": "*Online Only",
+"key": "Available to order",
+"priority": 6,
+"badgeColour": "Default"
+},
+{
+"displayField16": "Available while stocks last",
+"badgeName": "Available while stocks last",
+"key": "Available while stocks last",
+"priority": 7,
+"badgeColour": "Default"
+},
+{
+"displayField16": "Ships from",
+"badgeName": "Ships from",
+"key": "Shipped from",
+"priority": 8,
+"badgeColour": "Default"
+}
